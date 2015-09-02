@@ -12,3 +12,16 @@ POST          | /1.0/manager/file | [filepath:String, filename:String, fileuploa
 PUT           | /1.0/manager/file | [filepath:String, filename:String, fileupload:File]   | Edit file
 DELETE        | /1.0/manager/file | [filepath:String, filename:String]                    | Delete file
 
+--------
+
+Directory manager
+
+HTTP Methods  | URL               |Parameters (url or body)            | Description
+--------------|-------------------|------------------------------------|----------------------------------
+GET           | /1.0/manager/dir  | [filepath:String, dirname:String]  | Get content directory
+POST          | /1.0/manager/dir  | [filepath:String, dirname:String]  | Create dir
+DELETE        | /1.0/manager/dir  | [filepath:String, dirname:String]  | Delete dir
+
+--------
+
+
